@@ -8,5 +8,5 @@ license = "Apache-2.0/MIT"
 readme = "README.md"
 
 [dependencies]
-lunatic = { path = "../rust-lib" }
+lunatic = { path = "../rust-lib", version = "0.9" }
 

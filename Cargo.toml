@@ -1,0 +1,12 @@
+[package]
+name = "yaws"
+version = "0.0.0"
+edition = "2021"
+authors = ["pinkforest"]
+description = "Yet Another Web Server"
+license = "Apache-2.0/MIT"
+readme = "README.md"
+
+[dependencies]
+lunatic = { path = "../rust-lib" }
+

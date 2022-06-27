@@ -1,5 +1,11 @@
-use lunatic::{Mailbox};
+mod http;
 
-#[lunatic::main]
-fn main(_: Mailbox<()>) {
+fn main() {
+    
+    tokio_uring::start(async move {
+
+        let http_listener = http::Listener::new();
+        http_listener.next().await;
+        
+    });
 }

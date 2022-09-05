@@ -11,6 +11,6 @@ readme = "README.md"
 httparse = "1.7.1"
 logos = "0.12.1"
 nom = "7.1.1"
-thiserror = "1.0.31"
+thiserror = "1.0.34"
 tokio-uring = "0.3.0"
 

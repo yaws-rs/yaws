@@ -2,12 +2,14 @@
 name = "yaws-spec-h1"
 version = "0.0.0-202301.Jan.15"
 edition = "2021"
+rust-version = "1.60.0"
 authors = ["pinkforest"]
 description = "Yet Another Web Server HTTP/1 spec"
 license = "Apache-2.0/MIT"
 readme = "README.md"
 homepage = "https://github/yaws-rs/yaws"
 repository = "https://github/yaws-rs/yaws"
+documentation = "https://docs.rs/yaws"
 keywords = ["http"]
 categories = ["network-programming", "web-programming::http-server"]
 

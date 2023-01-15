@@ -1,8 +1,22 @@
 [package]
 name = "yaws-run-lunatic"
-version = "0.0.0"
+version = "0.0.0-202301.Jan.15"
 edition = "2021"
+rust-version = "1.60.0"
+authors = ["pinkforest"]
+description = "Yet Another Web Server HTTP/1 spec"
+license = "Apache-2.0/MIT"
+readme = "README.md"
+homepage = "https://github/yaws-rs/yaws"
+repository = "https://github/yaws-rs/yaws"
+documentation = "https://docs.rs/yaws"
+keywords = ["http"]
+categories = ["network-programming", "web-programming::http-server"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[features]
+
+[package.metadata.docs.rs]
+features = []
+rustdoc-args = ["--cfg", "docsrs"]
 
 [dependencies]

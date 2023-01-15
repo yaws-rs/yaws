@@ -34,9 +34,9 @@ checksum = "496ce29bb5a52785b44e0f7ca2847ae0bb839c9bd28f69acac9b99d461c0c04c"
 
 [[package]]
 name = "io-uring"
-version = "0.5.2"
+version = "0.5.11"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "8d75829ed9377bab6c90039fe47b9d84caceb4b5063266142e21bcce6550cda8"
+checksum = "c9ddf18110cedc09617f5a965bdb51adb0c0fb02c791e4ab22f7a21bb25269b0"
 dependencies = [
  "bitflags",
  "libc",
@@ -219,9 +219,9 @@ dependencies = [
 
 [[package]]
 name = "tokio-uring"
-version = "0.3.0"
+version = "0.4.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d3ad494f39874984d990ade7f6319dafbcd3301ff0b1841f8a55a1ebb3e742c8"
+checksum = "0d5e02bb137e030b3a547c65a3bd2f1836d66a97369fdcc69034002b10e155ef"
 dependencies = [
  "io-uring",
  "libc",
@@ -309,7 +309,19 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c811ca4a8c853ef420abd8592ba53ddbbac90410fab6903b3e79972a631f7680"
 
 [[package]]
-name = "yaws-h1spec"
+name = "yaws"
+version = "0.0.0"
+
+[[package]]
+name = "yaws-run-lunatic"
+version = "0.0.0"
+
+[[package]]
+name = "yaws-run-uring"
+version = "0.1.0"
+
+[[package]]
+name = "yaws-spec-h1"
 version = "0.0.0"
 dependencies = [
  "httparse",
@@ -318,3 +330,7 @@ dependencies = [
  "thiserror",
  "tokio-uring",
 ]
+
+[[package]]
+name = "yaws-spec-h2"
+version = "0.1.0"

@@ -15,11 +15,11 @@ For now I am just trying out some tricks..
 
 Lunatic Flavor:
 
-$ `RUSTFLAGS="--cfg yaws_flavor=\"lunatic\"" cargo run yaws`
+$ `RUSTFLAGS="--cfg yaws_flavor=\"lunatic\"" cargo run --bin yaws --target wasm32-wasi`
 
 io_uring Flavor:
 
-$ `RUSTFLAGS="--cfg yaws_flavor=\"io_uring\"" cargo run yaws`
+$ `RUSTFLAGS="--cfg yaws_flavor=\"io_uring\"" cargo run --bin yaws`
 
 ## Tricks
 

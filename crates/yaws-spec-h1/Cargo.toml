@@ -1,11 +1,21 @@
 [package]
 name = "yaws-spec-h1"
-version = "0.0.0"
+version = "0.0.0.2023_Jan_15"
 edition = "2021"
 authors = ["pinkforest"]
 description = "Yet Another Web Server HTTP/1 spec"
 license = "Apache-2.0/MIT"
 readme = "README.md"
+homepage = "https://github/yaws-rs/yaws"
+repository = "https://github/yaws-rs/yaws"
+keywords = ["http"]
+categories = ["network-programming", "web-programming::http-server"]
+
+[features]
+
+[package.metadata.docs.rs]
+features = []
+rustdoc-args = ["--cfg", "docsrs"]
 
 [dependencies]
 httparse = "1.7.1"

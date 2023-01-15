@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v2.4.0
+        uses: actions/checkout@v3
 
       - name: Install Rust
         uses: dtolnay/rust-toolchain@stable
@@ -60,13 +60,17 @@ jobs:
         include:
           - rust: stable
             features: "--features full"
+            os: ubuntu-latest
           - rust: beta
             features: "--features full"
+            os: ubuntu-latest
           - rust: nightly
-            features: "--features full,nightly"
+            features: "--features full,nightly"            
             benches: true
+            os: ubuntu-latest
           - rust: 1.47
             features: "--features full"
+            os: ubuntu-latest
 
     runs-on: ${{ matrix.os }}
 

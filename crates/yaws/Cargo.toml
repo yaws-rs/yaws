@@ -1,6 +1,6 @@
 [package]
 name = "yaws"
-version = "0.0.0.2023_Jan_15"
+version = "0.0.0-202301.Jan.15"
 edition = "2021"
 authors = ["pinkforest"]
 description = "Yet Another Web Server"

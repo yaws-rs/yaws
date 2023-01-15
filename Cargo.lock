@@ -331,11 +331,11 @@ version = "0.0.0-202301.Jan.15"
 
 [[package]]
 name = "yaws-run-lunatic"
-version = "0.0.0"
+version = "0.0.0-202301.Jan.15"
 
 [[package]]
 name = "yaws-run-uring"
-version = "0.0.0"
+version = "0.0.0-202301.Jan.15"
 
 [[package]]
 name = "yaws-spec-h1"
@@ -350,4 +350,4 @@ dependencies = [
 
 [[package]]
 name = "yaws-spec-h2"
-version = "0.0.0"
+version = "0.0.0-202301.Jan.15"

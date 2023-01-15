@@ -2,10 +2,8 @@ use tokio_uring::net::TcpListener;
 
 pub fn run() {
     tokio_uring::start(async move {
-
         let listener = crate::Listener::new();
         listener.next().await;
-        
     });
 }
 
@@ -16,7 +14,7 @@ struct Listener {
 impl Listener {
     fn new() -> Self {
         let listener = TcpListener::bind("127.0.0.1:9999".parse().unwrap()).unwrap();
-        
+
         Self { listener }
     }
     async fn next(self: &Self) {
@@ -29,8 +27,8 @@ impl Listener {
     }
 }
 
-use tokio_uring::net::TcpStream;
 use tokio_uring::buf::IoBufMut;
+use tokio_uring::net::TcpStream;
 
 struct Reader {
     buf_in: Vec<u8>,
@@ -46,7 +44,7 @@ impl Reader {
         let (res, buf) = self.client.read(self.buf_in).await;
         let n = res.unwrap();
         self.buf_in = buf;
-        
+
         println!("n: {:?}", n);
 
         self

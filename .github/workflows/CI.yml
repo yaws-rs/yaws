@@ -43,8 +43,6 @@ jobs:
     name: Test ${{ matrix.rust }} on ${{ matrix.os }}
     needs: [style]
     env:
-      GIS_CONFIG_PATH: config
-      TEST_DATA_PATH: test_data
       RUN_MODE: development
       RUST_BACKTRACE: 1
 

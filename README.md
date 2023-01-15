@@ -1,9 +1,9 @@
 # yaws
 
-[![CI](https://github.com/pinkforest/yaws/actions/workflows/CI.yml/badge.svg)](https://github.com/pinkforest/yaws/actions/workflows/CI.yml)
+[![CI](https://github.com/pinkforest/yaws/actions/workflows/CI.yml/badge.svg)](https://github.com/yaws-rs/yaws/actions/workflows/CI.yml)
 [![Crates.io](https://img.shields.io/crates/v/yaws.svg)](https://crates.io/crates/yaws)
 [![Docs](https://docs.rs/yaws/badge.svg)](https://docs.rs/yaws)
-[![Deps](https://deps.rs/repo/github/pinkforest/yaws/status.svg)](https://deps.rs/repo/github/pinkforest/yaws)
+[![Deps](https://deps.rs/repo/github/pinkforest/yaws/status.svg)](https://deps.rs/repo/github/yaws-rs/yaws)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![MSRV](https://img.shields.io/badge/MSRV-1.60.0-blue)
@@ -20,9 +20,9 @@ $ `cargo run yaws -- lunatic`
 
 io_uring Flavor:
 
-$ `cargo run yaws -- lunatic`
+$ `cargo run yaws -- io_uring`
 
-## yaws Flavors
+## yaws Library
 
 yaws has two flavors available controlled via `cfg(yaws_flawor)`
 

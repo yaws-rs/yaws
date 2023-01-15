@@ -21,6 +21,6 @@ impl Listener {
         let mut reader = HttpReader::new(client);
         reader = reader.read_next().await;
 
-        reader.status();
+        //reader.status();
     }
 }

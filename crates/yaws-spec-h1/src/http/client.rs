@@ -20,10 +20,11 @@ impl Reader {
 
         self
     }
+    /*
     pub fn status(&self) {
 
         // I look dodgy..
         crate::http::parser::status(&self.buf_in)
     }
-
+     */
 }

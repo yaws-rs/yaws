@@ -1,6 +1,6 @@
 # yaws
 
-[![CI](https://github.com/pinkforest/yaws/actions/workflows/CI.yml/badge.svg)](https://github.com/yaws/gis_puller/actions/workflows/CI.yml)
+[![CI](https://github.com/pinkforest/yaws/actions/workflows/CI.yml/badge.svg)](https://github.com/pinkforest/yaws/actions/workflows/CI.yml)
 [![Crates.io](https://img.shields.io/crates/v/yaws.svg)](https://crates.io/crates/yaws)
 [![Docs](https://docs.rs/yaws/badge.svg)](https://docs.rs/yaws)
 [![Deps](https://deps.rs/repo/github/pinkforest/yaws/status.svg)](https://deps.rs/repo/github/pinkforest/yaws)
@@ -11,6 +11,42 @@
 Hi I'm Yaws and I swim where the hyper doesn't
 
 For now I am just trying out some tricks..
+
+## Run
+
+Lunatic Flavor:
+
+$ `cargo run yaws -- lunatic`
+
+io_uring Flavor:
+
+$ `cargo run yaws -- lunatic`
+
+## yaws Flavors
+
+yaws has two flavors available controlled via `cfg(yaws_flawor)`
+
+- [ ] `cfg(yaws_flavor = "io_uring")` - `yaws-run-uring` - TODO
+- [ ] `cfg(yaws_flavor = "lunatic")` - `yaws-run-lunatic` - TODO
+
+### yaws Flavor: io_uring
+
+This will use io_uring flavor of Yaws Host side
+
+Goal: Fast I/O
+
+### yaws Flavor: lunatic
+
+This will use the Lunatic flavor of Yaws inside Lunatic VM
+
+Goal: Run inside Lunatic VM
+
+## yaws Spec Compliance
+
+yaws aims to be h1 and h2 spec compliant
+
+- [ ] `yaws-spec-h1` - TODO
+- [ ] `yaws-spec-h2` - TODO
 
 ## License
 

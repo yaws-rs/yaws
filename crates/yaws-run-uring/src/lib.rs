@@ -13,6 +13,7 @@ struct Listener {
 
 impl Listener {
     fn new() -> Self {
+        println!("io_uring Listening on 127.0.0.1:9999");
         let listener = TcpListener::bind("127.0.0.1:9999".parse().unwrap()).unwrap();
 
         Self { listener }

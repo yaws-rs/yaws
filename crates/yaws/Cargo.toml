@@ -21,5 +21,13 @@ rustdoc-args = ["--cfg", "docsrs"]
 
 [dependencies]
 
+# TODO: gate via yaws-run instead of hacking with package = "x" ?
+# Dependency 'yaws-run' has different source paths depending on the build target.
+# Each dependency must have a single canonical source path irrespective of build target.
+
 [target.'cfg(yaws_flavor = "io_uring")'.dependencies]
-yaws-run = { path = "../yaws-run-uring", package = "yaws-run-uring", version = "0.0.0-202301.Jan.15" }
+yaws-run-uring = { path = "../yaws-run-uring", version = "0.0.0-202301.Jan.15" }
+
+[target.'cfg(yaws_flavor = "lunatic")'.dependencies]
+yaws-run-lunatic = { path = "../yaws-run-lunatic", version = "0.0.0-202301.Jan.15" }
+lunatic = "0.12"

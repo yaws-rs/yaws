@@ -1,0 +1,2 @@
+https://docs.rs/lunatic-process/latest/lunatic_process/runtimes/wasmtime/struct.WasmtimeCompiledModule.html
+https://docs.rs/lunatic-process/latest/lunatic_process/wasm/fn.spawn_wasm.html

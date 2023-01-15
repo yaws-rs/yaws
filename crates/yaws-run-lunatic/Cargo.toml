@@ -20,3 +20,5 @@ features = []
 rustdoc-args = ["--cfg", "docsrs"]
 
 [dependencies]
+lunatic = { version = "0.12" }
+serde = { version = "1.0" }

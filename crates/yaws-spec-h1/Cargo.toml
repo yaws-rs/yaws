@@ -20,9 +20,9 @@ features = []
 rustdoc-args = ["--cfg", "docsrs"]
 
 [dependencies]
-httparse = "1.7.1"
-logos = "0.12.1"
-nom = "7.1.1"
-thiserror = "1.0.31"
-tokio-uring = "0.4"
+#httparse = "1.7.1"
+#logos = "0.12.1"
+#nom = "7.1.1"
+#thiserror = "1.0.31"
+#tokio-uring = "0.4"
 

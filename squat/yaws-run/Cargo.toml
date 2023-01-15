@@ -1,10 +1,10 @@
 [package]
-name = "yaws-run-uring"
+name = "yaws-run"
 version = "0.0.0-202301.Jan.15"
 edition = "2021"
 rust-version = "1.60.0"
 authors = ["pinkforest"]
-description = "Yet Another Web Server HTTP/1 spec"
+description = "Yet Another Web Server"
 license = "Apache-2.0/MIT"
 readme = "README.md"
 homepage = "https://github/yaws-rs/yaws"
@@ -20,4 +20,3 @@ features = []
 rustdoc-args = ["--cfg", "docsrs"]
 
 [dependencies]
-tokio-uring = "0.4"

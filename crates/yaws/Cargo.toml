@@ -20,3 +20,6 @@ features = []
 rustdoc-args = ["--cfg", "docsrs"]
 
 [dependencies]
+
+[target.'cfg(yaws_flavor = "io_uring")'.dependencies]
+yaws-run = { path = "../yaws-run-uring", package = "yaws-run-uring", version = "0.0.0-202301.Jan.15" }

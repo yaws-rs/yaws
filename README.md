@@ -16,11 +16,18 @@ For now I am just trying out some tricks..
 
 Lunatic Flavor:
 
-$ `cargo run yaws -- lunatic`
+$ RUSTFLAGS="--cfg yaws_flavor=\"lunatic\"" `cargo run yaws`
 
 io_uring Flavor:
 
-$ `cargo run yaws -- io_uring`
+$ RUSTFLAGS="--cfg yaws_flavor=\"io_uring\"" `cargo run yaws -- io_uring`
+
+## Tricks
+
+* Lunatic guest impl can co-exist with Host io_uring / I/O Rings impl.
+* TCP_NOTSENT_LOWAT - https://lwn.net/Articles/560082/
+* h1/2spec sans-io - https://github.com/brettcannon/sans-io/blob/main/how-to-sans-io.rst
+* gRPC + no-serialization hand-off
 
 ## yaws Library
 

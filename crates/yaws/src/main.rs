@@ -1,13 +1,6 @@
-//mod http;
+#[cfg(all(not(yaws_flavor = "io_uring"), not(yaws_flavor = "lunatic")))]
+compile_error!("Set cfg(yaws_flavor) either as io_uring or lunatic");
 
 fn main() {
-
-    /*
-    tokio_uring::start(async move {
-
-        let http_listener = http::Listener::new();
-        http_listener.next().await;
-
-    });
-     */
+    yaws_run::run();
 }

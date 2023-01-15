@@ -328,6 +328,9 @@ checksum = "447660ad36a13288b1db4d4248e857b510e8c3a225c822ba4fb748c0aafecffd"
 [[package]]
 name = "yaws"
 version = "0.0.0-202301.Jan.15"
+dependencies = [
+ "yaws-run-uring",
+]
 
 [[package]]
 name = "yaws-run-lunatic"
@@ -336,6 +339,9 @@ version = "0.0.0-202301.Jan.15"
 [[package]]
 name = "yaws-run-uring"
 version = "0.0.0-202301.Jan.15"
+dependencies = [
+ "tokio-uring",
+]
 
 [[package]]
 name = "yaws-spec-h1"

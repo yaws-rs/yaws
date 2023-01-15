@@ -16,11 +16,11 @@ For now I am just trying out some tricks..
 
 Lunatic Flavor:
 
-$ RUSTFLAGS="--cfg yaws_flavor=\"lunatic\"" `cargo run yaws`
+$ `RUSTFLAGS="--cfg yaws_flavor=\"lunatic\"" cargo run yaws`
 
 io_uring Flavor:
 
-$ RUSTFLAGS="--cfg yaws_flavor=\"io_uring\"" `cargo run yaws -- io_uring`
+$ `RUSTFLAGS="--cfg yaws_flavor=\"io_uring\"" cargo run yaws -- io_uring`
 
 ## Tricks
 

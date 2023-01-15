@@ -106,9 +106,9 @@ dependencies = [
 
 [[package]]
 name = "nom"
-version = "7.1.1"
+version = "7.1.2"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "a8903e5a29a317527874d0402f867152a3d21c908bb0b933e416c65e301d4c36"
+checksum = "e5507769c4919c998e69e49c839d9dc6e693ede4cc4290d6ad8b41d4f09c548c"
 dependencies = [
  "memchr",
  "minimal-lexical",
@@ -309,7 +309,19 @@ source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "c811ca4a8c853ef420abd8592ba53ddbbac90410fab6903b3e79972a631f7680"
 
 [[package]]
-name = "yaws-h1spec"
+name = "yaws"
+version = "0.0.0"
+
+[[package]]
+name = "yaws-run-lunatic"
+version = "0.0.0"
+
+[[package]]
+name = "yaws-run-uring"
+version = "0.1.0"
+
+[[package]]
+name = "yaws-spec-h1"
 version = "0.0.0"
 dependencies = [
  "httparse",
@@ -318,3 +330,7 @@ dependencies = [
  "thiserror",
  "tokio-uring",
 ]
+
+[[package]]
+name = "yaws-spec-h2"
+version = "0.1.0"

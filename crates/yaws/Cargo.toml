@@ -30,4 +30,4 @@ yaws-run-uring = { path = "../yaws-run-uring", version = "0.0.0-202301.Jan.15" }
 
 [target.'cfg(yaws_flavor = "lunatic")'.dependencies]
 yaws-run-lunatic = { path = "../yaws-run-lunatic", version = "0.0.0-202301.Jan.15" }
-lunatic = "0.12"
+lunatic = "0.13"

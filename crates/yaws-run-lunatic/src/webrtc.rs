@@ -22,15 +22,17 @@ fn bind(input: WebRTCServer) {
     println!("Bound on addr: {}", bound_srv.local_addr().unwrap());
 
     let mut in_buf = [0; 9100];
-    
+
     while let Ok((bytec, peer)) = bound_srv.recv_from(&mut in_buf) {
-        println!("Received [{}] from peer {} on addr: {}", bytec, peer, &input.local_address);
+        println!(
+            "Received [{}] from peer {} on addr: {}",
+            bytec, peer, &input.local_address
+        );
 
         let recvd_buf = &mut in_buf[..bytec];
 
         let dbg_buf = String::from_utf8_lossy(recvd_buf);
-        
-        dbg!(dbg_buf);
 
+        dbg!(dbg_buf);
     }
 }

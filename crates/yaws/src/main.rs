@@ -15,5 +15,3 @@ fn main(mailbox: lunatic::Mailbox<()>) {
     // This will block forever
     let _ = mailbox.receive();
 }
-
-

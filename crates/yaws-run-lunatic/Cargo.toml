@@ -13,12 +13,10 @@ documentation = "https://docs.rs/yaws"
 keywords = ["http"]
 categories = ["network-programming", "web-programming::http-server"]
 
-[features]
-
 [package.metadata.docs.rs]
 features = []
 rustdoc-args = ["--cfg", "docsrs"]
 
 [dependencies]
-lunatic = { version = "0.12" }
+lunatic = { version = "0.14" }
 serde = { version = "1.0" }

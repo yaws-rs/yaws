@@ -13,8 +13,6 @@ documentation = "https://docs.rs/yaws"
 keywords = ["http"]
 categories = ["network-programming", "web-programming::http-server"]
 
-[features]
-
 [package.metadata.docs.rs]
 features = []
 rustdoc-args = ["--cfg", "docsrs"]
@@ -30,4 +28,4 @@ yaws-run-uring = { path = "../yaws-run-uring", version = "0.0.0-202301.Jan.15" }
 
 [target.'cfg(yaws_flavor = "lunatic")'.dependencies]
 yaws-run-lunatic = { path = "../yaws-run-lunatic", version = "0.0.0-202301.Jan.15" }
-lunatic = "0.12"
+lunatic = { version = "0.14" }

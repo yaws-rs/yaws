@@ -1,4 +1,4 @@
-# yaws
+# yaws - an environment-neutral Web server capability
 
 [![CI](https://github.com/pinkforest/yaws/actions/workflows/CI.yml/badge.svg)](https://github.com/yaws-rs/yaws/actions/workflows/CI.yml)
 [![Crates.io](https://img.shields.io/crates/v/yaws.svg)](https://crates.io/crates/yaws)
@@ -7,11 +7,11 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![MSRV](https://img.shields.io/badge/MSRV-1.60.0-blue)
 
-Hi I'm Yaws and I swim where the hyper doesn't
+HTTP is everywhere, from embedded to big iron. YAWS is a harmonized environment-neutral open source HTTP server capability able to be provided through modern WebAssembly, io_uring, microkernel, RISC-V, embedded runtimes often without POSIX, standard library or operating system support. YAWS democratizes HTTP by providing HTTP server capability in these domains, allowing everyone to integrate modern HTTP interface safely and securely into where ever and whatever they build that requires a HTTP server capability.
 
-For now I am just trying out some tricks..
+## yaws Binary
 
-## Run
+Running yaws requires a runtime, we provide the below examples:
 
 Lunatic Flavor:
 
@@ -20,13 +20,6 @@ $ `RUSTFLAGS="--cfg yaws_flavor=\"lunatic\"" cargo run --bin yaws --target wasm3
 io_uring Flavor:
 
 $ `RUSTFLAGS="--cfg yaws_flavor=\"io_uring\"" cargo run --bin yaws`
-
-## Tricks
-
-* Lunatic guest impl can co-exist with Host io_uring / I/O Rings impl.
-* TCP_NOTSENT_LOWAT - https://lwn.net/Articles/560082/
-* h1/2spec sans-io - https://github.com/brettcannon/sans-io/blob/main/how-to-sans-io.rst
-* gRPC + no-serialization hand-off
 
 ## yaws Library
 
@@ -46,13 +39,6 @@ Goal: Fast I/O
 This will use the Lunatic flavor of Yaws inside Lunatic VM
 
 Goal: Run inside Lunatic VM
-
-## yaws Spec Compliance
-
-yaws aims to be h1 and h2 spec compliant
-
-- [ ] `yaws-spec-h1` - TODO
-- [ ] `yaws-spec-h2` - TODO
 
 ## License
 

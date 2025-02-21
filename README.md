@@ -7,7 +7,7 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![MSRV](https://img.shields.io/badge/MSRV-1.60.0-blue)
 
-HTTP is everywhere, from embedded to big iron. YAWS is a harmonized environment-neutral open source HTTP server capability able to be provided through modern WebAssembly, io_uring, microkernel, RISC-V, embedded runtimes often without POSIX, standard library or operating system support. YAWS democratizes HTTP by providing HTTP server capability in these domains, allowing everyone to integrate modern HTTP interface safely and securely into where ever and whatever they build that requires a HTTP server capability.
+HTTP is everywhere, from embedded to big iron. YAWS is a harmonized environment-neutral open source HTTP server capability.
 
 ## yaws Binary
 
@@ -27,6 +27,10 @@ yaws has two flavors available controlled via `cfg(yaws_flawor)`
 
 - [ ] `cfg(yaws_flavor = "io_uring")` - `yaws-run-uring` - TODO
 - [ ] `cfg(yaws_flavor = "lunatic")` - `yaws-run-lunatic` - TODO
+
+## yaws Flavors
+
+Yaws through it's different flabors is able to be provided through modern WebAssembly, io_uring, microkernel, RISC-V, embedded runtimes often without POSIX, standard library or operating system support. YAWS democratizes HTTP by providing HTTP server capability in these domains, allowing everyone to integrate modern HTTP interface safely and securely into where ever and whatever they build that requires a HTTP server capability.
 
 ### yaws Flavor: io_uring
 

@@ -7,7 +7,9 @@
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![MSRV](https://img.shields.io/badge/MSRV-1.60.0-blue)
 
-HTTP is everywhere, from embedded to big iron. YAWS is a harmonized environment-neutral open source HTTP server capability.
+HTTP is everywhere, from embedded to big iron.
+
+YAWS is a harmonized environment-neutral open source HTTP server capability.
 
 ## yaws Binary
 

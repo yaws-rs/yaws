@@ -9,42 +9,13 @@
 
 HTTP is everywhere, from embedded to big iron.
 
-YAWS is a harmonized environment-neutral open source HTTP server capability.
+Yaws is a harmonized environment-neutral open source HTTP server capability.
 
-## yaws Binary
+Yaws through it's different flabors is able to be provided through modern WebAssembly, io_uring, microkernel, RISC-V, embedded runtimes often without POSIX, standard library or operating system support.
 
-Running yaws requires a runtime, we provide the below examples:
+Yaws democratizes HTTP by providing HTTP server capability in these domains, allowing everyone to integrate modern HTTP interface safely and securely into where ever and whatever they build that requires a HTTP server capability.
 
-Lunatic Flavor:
-
-$ `RUSTFLAGS="--cfg yaws_flavor=\"lunatic\"" cargo run --bin yaws --target wasm32-wasi`
-
-io_uring Flavor:
-
-$ `RUSTFLAGS="--cfg yaws_flavor=\"io_uring\"" cargo run --bin yaws`
-
-## yaws Library
-
-yaws has two flavors available controlled via `cfg(yaws_flawor)`
-
-- [ ] `cfg(yaws_flavor = "io_uring")` - `yaws-run-uring` - TODO
-- [ ] `cfg(yaws_flavor = "lunatic")` - `yaws-run-lunatic` - TODO
-
-## yaws Flavors
-
-Yaws through it's different flabors is able to be provided through modern WebAssembly, io_uring, microkernel, RISC-V, embedded runtimes often without POSIX, standard library or operating system support. YAWS democratizes HTTP by providing HTTP server capability in these domains, allowing everyone to integrate modern HTTP interface safely and securely into where ever and whatever they build that requires a HTTP server capability.
-
-### yaws Flavor: io_uring
-
-This will use io_uring flavor of Yaws Host side
-
-Goal: Fast I/O
-
-### yaws Flavor: lunatic
-
-This will use the Lunatic flavor of Yaws inside Lunatic VM
-
-Goal: Run inside Lunatic VM
+See [Yaws Book](https://yaws-rs.github.io/book) for more.
 
 ## License
 

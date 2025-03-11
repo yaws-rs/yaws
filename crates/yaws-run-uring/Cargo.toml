@@ -20,4 +20,4 @@ features = []
 rustdoc-args = ["--cfg", "docsrs"]
 
 [dependencies]
-tokio-uring = "0.4"
+tokio-uring = "0.5"

@@ -1,2 +1,0 @@
-[target.wasm32-wasi]
-runner = "lunatic run"

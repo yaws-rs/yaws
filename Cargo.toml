@@ -1,5 +1,0 @@
-[workspace]
-exclude = ["squat/yaws-run"]
-members = ["crates/*"]
-
-resolver = "2"

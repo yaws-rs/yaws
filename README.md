@@ -19,12 +19,12 @@ See [Yaws Book](https://yaws-rs.github.io/book) for more.
 ## H11Spec
 
 Repository: [yaws/h11spec](https://github.com/yaws-rs/h11spec)
-[![CI](https://github.com/yaws/h11spec/actions/workflows/CI.yml/badge.svg)](https://github.com/yaws-rs/h11spec/actions/workflows/CI.yml)
+ [![CI](https://github.com/yaws-rs/h11spec/actions/workflows/CI.yml/badge.svg)](https://github.com/yaws-rs/h11spec/actions/workflows/CI.yml)
 
 | Repository | Crate | Docs |
 | :---       | :---  | :--- |
-| [yaws-rs/h11spec/h11types](https://github.com/yaws-rs/h11spec/tree/main/h11types) | [![Crates.io](https://img.shields.io/crates/v/h11types.svg)](https://crates.io/crates/h11types) | [![Docs](https://docs.rs/h11types/badge.svg)](https://docs.rs/h11types) |
-| [yaws-rs/h11spec/blueprint](https://github.com/yaws-rs/h11spec/tree/main/blueprint) | [![Crates.io](https://img.shields.io/crates/v/blueprint-h11spec.svg)](https://crates.io/crates/blueprint-h11spec) | [![Docs](https://docs.rs/blueprint-h11spec/badge.svg)](https://docs.rs/blueprint-h11spec) |
+| [yaws-rs/h11spec/h11types](https://github.com/yaws-rs/h11spec/tree/main/h11types) | h11types [![Crates.io](https://img.shields.io/crates/v/h11types.svg)](https://crates.io/crates/h11types) | [![Docs](https://docs.rs/h11types/badge.svg)](https://docs.rs/h11types) |
+| [yaws-rs/h11spec/blueprint](https://github.com/yaws-rs/h11spec/tree/main/blueprint) | blueprint-h11spec [![Crates.io](https://img.shields.io/crates/v/blueprint-h11spec.svg)](https://crates.io/crates/blueprint-h11spec) | [![Docs](https://docs.rs/blueprint-h11spec/badge.svg)](https://docs.rs/blueprint-h11spec) |
 
 ## License
 

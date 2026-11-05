@@ -23,14 +23,8 @@ Repository: [yaws/h11spec](https://github.com/yaws-rs/h11spec)
 
 | Repository | Crate | Docs |
 | :---       | :---  | :--- |
-| [yaws-rs/h11spec/h11types](https://github.com/yaws-rs/h11spec/tree/main/h11types)
-| [![Crates.io](https://img.shields.io/crates/v/yaws.svg)](https://crates.io/crates/h11types)
-| [![Docs](https://docs.rs/yaws/badge.svg)](https://docs.rs/h11types)
-|
-| [yaws-rs/h11spec/blueprint](https://github.com/yaws-rs/h11spec/tree/main/blueprint)
-| [![Crates.io](https://img.shields.io/crates/v/yaws.svg)](https://crates.io/crates/h11types)
-| [![Docs](https://docs.rs/yaws/badge.svg)](https://docs.rs/h11types)
-|
+| [yaws-rs/h11spec/h11types](https://github.com/yaws-rs/h11spec/tree/main/h11types) | [![Crates.io](https://img.shields.io/crates/v/h11types.svg)](https://crates.io/crates/h11types) | [![Docs](https://docs.rs/h11types/badge.svg)](https://docs.rs/h11types) |
+| [yaws-rs/h11spec/blueprint](https://github.com/yaws-rs/h11spec/tree/main/blueprint) | [![Crates.io](https://img.shields.io/crates/v/blueprint-h11spec.svg)](https://crates.io/crates/blueprint-h11spec) | [![Docs](https://docs.rs/blueprint-h11spec/badge.svg)](https://docs.rs/blueprint-h11spec) |
 
 ## License
 

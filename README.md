@@ -1,5 +1,6 @@
 # yaws - an environment-neutral Web server capability
 
+[![no_std compatible](https://img.shields.io/badge/no__std-compatible-green)](https://doc.rust-lang.org/std/attribute.no_std.html)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![MSRV](https://img.shields.io/badge/MSRV-1.60.0-blue)
@@ -28,7 +29,7 @@ See [Yaws Book](https://yaws-rs.github.io/book) for more.
 
 | Repository | Crate | Docs | Description |
 | :---       | :---  | :--- | :---        |
-| [yaws-rs/tls/ytls-blueprint](https://github.com/yaws-rs/tls/tree/main/ytls-blueprint) | [![Crates.io](https://img.shields.io/crates/v/blueprint-ytls.svg)](https://crates.io/crates/blueprint-ytls) | [![Docs](https://docs.rs/blueprint-ytls/badge.svg)](https://docs.rs/blueprint-ytls) | yTLS ([github](github.com/yolotls/yolotls), [book](https://yolotls.github.io/book/)) BluePrint & Orbit implementations |
+| [yaws-rs/tls/ytls-blueprint](https://github.com/yaws-rs/tls/tree/main/ytls-blueprint) | [![Crates.io](https://img.shields.io/crates/v/blueprint-ytls.svg)](https://crates.io/crates/blueprint-ytls) | [![Docs](https://docs.rs/blueprint-ytls/badge.svg)](https://docs.rs/blueprint-ytls) | yTLS ([github](https://github.com/yolotls/yolotls), [book](https://yolotls.github.io/book/)) BluePrint & Orbit implementations |
 | [yaws-rs/tls/rustls-blueprint](https://github.com/yaws-rs/tls/tree/main/rustls-blueprint) | [![Crates.io](https://img.shields.io/crates/v/blueprint-rustls.svg)](https://crates.io/crates/blueprint-rustls) | [![Docs](https://docs.rs/blueprint-rustls/badge.svg)](https://docs.rs/blueprint-rustls) | RusTLS ([github](https://github.com/rustls/rustls)) BluePrint & Orbit implementations |
 
 ## H11Spec (HTTP/1.1)
